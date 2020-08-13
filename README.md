@@ -15,9 +15,10 @@ Preparation:
   - glibc
 
 Build:
-0. Read build related sections of [GCC FAQ](https://gcc.gnu.org/wiki/FAQ). This is important.
-1. Make symlink of bundled gcc dependencies into gcc source directory.
-2. Follow the article.
- - Note: I edited asan code a bit to avoid build failure.
+
+  0. Read build related sections of [GCC FAQ](https://gcc.gnu.org/wiki/FAQ). This is important.
+  1. Make symlink of bundled gcc dependencies into gcc source directory.
+  2. Follow the article.
+  - Note: I edited asan code a bit to avoid build failure.
 
 Disclaimer: Makefile is not fully tested.
