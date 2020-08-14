@@ -76,4 +76,12 @@ build-gcc: build-glibc
 	$(MAKE) -C $@ install
 
 
+configure-gcc2:
+	-mkdir build-gcc2
+	cd build-gcc2 && ../gcc-arm-src-*/configure  --prefix=$(PREFIX) --target=$(TARGET)   --enabl  e-languages=c,c++  --disable-gettext --disable-multilib --with-headers=/opt/cross/aarch64-linux-gnu/include --enable-multiarch
+
+build-gcc2: configure-gcc2
+	$(MAKE) $(MAKE_FLAGS) -C build-gcc2
+
+
 .PHONY: $(SUBDIRS)
