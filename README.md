@@ -1,6 +1,8 @@
 gcc-arm-mac
 ===========
 
+Download binary: [https://github.com/youknowone/gcc-arm-mac/releases](https://github.com/youknowone/gcc-arm-mac/releases)
+
 I followed the article: [How to build a GCC Cross-Compiler](https://preshing.com/20141119/how-to-build-a-gcc-cross-compiler/)
 
 Preparation:
